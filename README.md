@@ -6,6 +6,9 @@ An IP address tracker built as a solution to a [Frontend Mentor](https://www.fro
 
 When the page opens, the app detects your own IP address and shows its location on the map. You can then search for any IP address or domain to see its key details and where it sits in the world.
 
+## Preview
+
+![IP Address Tracker preview](./public/Preview.png)
 
 ## Features
 
