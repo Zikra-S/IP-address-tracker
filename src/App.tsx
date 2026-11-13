@@ -13,7 +13,7 @@ export default function App() {
         <SearchBar onSearch={(term) => console.log(term)} />
       </Header>
 
-      <div className="pointer-events-none absolute inset-x-0 top-52 z-[1001] flex justify-center px-6 md:top-50 [&>*]:pointer-events-auto">
+      <div className="pointer-events-none absolute inset-x-0 top-52 z-1001 flex justify-center px-6 md:top-50 *:pointer-events-auto">
         {data && (
           <InfoCard
             ip={data.ip}
