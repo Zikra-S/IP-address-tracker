@@ -15,7 +15,7 @@ export default function App() {
         <SearchBar onSearch={setTerm} />
       </Header>
 
-      <div className="pointer-events-none absolute inset-x-0 top-52 z-1001 flex justify-center px-6 md:top-50 [&>*]:pointer-events-auto">
+      <div className="pointer-events-none absolute inset-x-0 top-52 z-1001 flex justify-center px-6 md:top-50 *:pointer-events-auto">
         {isPending && <p className="rounded-2xl bg-white px-8 py-6 shadow-lg">Loading...</p>}
 
         {error && <p className="rounded-2xl bg-white px-8 py-6 text-red-600 shadow-lg">{error.message}</p>}
