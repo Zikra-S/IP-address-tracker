@@ -10,6 +10,8 @@ When the page opens, the app detects your own IP address and shows its location 
 
 ![IP Address Tracker preview](./public/Preview.png)
 
+[View live site](https://ip-address-tracker-01.vercel.app/)
+
 ## Features
 
 - Shows your own IP address and location automatically on page load
